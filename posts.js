@@ -1,4 +1,4 @@
-import { posts } from "./mongoConnect.js"
+import { posts } from "./MongoConnect.js"
 
 export const addPost = async (req, res) => {
    await posts.insertOne(req.body)

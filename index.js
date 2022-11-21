@@ -3,7 +3,7 @@ import cors from 'cors';
 // import { MongoClient } from 'mongodb'
 import 'dotenv/config'
 
-import { posts } from './mongoConnect.js'
+import { posts } from './MongoConnect.js'
 import { addPost } from './posts.js'
 
 const app = express();
